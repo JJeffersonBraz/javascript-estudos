@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições If/Else</title>
+</head>
+<body>
+    <h1>Teste de Nacionalidade</h1>
+    <p>Em qual país você reside atualmente?</p>
+
+    <input type="text" name="nacionalidade" id="nacionalidade">
+    <input type="button" value="verificar" onclick="verificar()">
+    
+    <div id="res"></div>
+
+    <script>
+        function verificar() {
+            var nac = window.document.getElementById('nacionalidade')
+            var res = window.document.getElementById('res')
+            if (nac.value == 'Brasil' || 'brasil') {
+                res.innerText = 'Você é brasileiro!'    
+            } else {
+                res.innerText = 'Você é estrangeiro!'    
+            }
+        }
+    </script>
+</body>
+</html>

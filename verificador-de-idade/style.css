@@ -1,0 +1,36 @@
+body {
+    background: #3e3ede;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 15px 10px;
+    width: 500px;
+    margin: auto;
+
+    color: black;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.344);
+}
+
+input {
+    margin: 8px 0;
+}
+
+.estilo_linha {
+    display: block;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
