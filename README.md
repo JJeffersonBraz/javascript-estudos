@@ -1,6 +1,7 @@
-<h1> JavaScript - Exercícios  </h1>
+<h1 align="center"> JavaScript - Exercícios  </h1>
 
-<p> Exercícios propostos no curso de JavaScript da platadorma <a href="https://www.cursoemvideo.com/" target="_blank">Curso em vídeo</a>. Com o objetivo de desafiar-me, modifiquei e adicionei funcionalidades extras nos exercícios. </p>
+<p> Exercícios propostos no curso de JavaScript da platadorma <a href="https://www.cursoemvideo.com/" target="_blank">Curso em vídeo</a>.</p>
+<p> Com o objetivo de desafiar-me, modifiquei e adicionei funcionalidades extras aos exercícios. </p>
 
 <h2> Analisador de números </h2>
 
