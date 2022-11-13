@@ -15,6 +15,7 @@ function contar() {
         if (p <= 0) {
             alert('Passo "0" é inválido, considerando passo "1".')
             p = 1
+            passo.value = 1
         }
 
         if (i < f) {
