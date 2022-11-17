@@ -20,6 +20,23 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.344);
 }
 
+div {
+    margin: 10px;
+}
+
+input[type=button] {
+    width: 45%;
+}
+
+select {
+    width: auto;
+}
+
+.displayInline {
+    display: inline-block;
+}
+
+
 footer {
     color: white;
     text-align: center;
