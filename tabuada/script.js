@@ -7,8 +7,8 @@ function tabuada(){
         window.alert('Digite um número')
     } else {
         let n = Number(num.value)
-        mult.innerHTML = ''
 
+        mult.innerHTML = ''
         for (let c=1 ; c<=10 ; c++) {
             let item = document.createElement('option')
             item.text = `${n} x ${c} = ${n*c}`
@@ -19,7 +19,7 @@ function tabuada(){
         div.innerHTML = ''
         for (let c=1 ; c<=10 ; c++) {
             let item = document.createElement('option')
-            item.text = `${n} / ${c} = ${n/c}`
+            item.text = `${n} / ${c} = ${(n/c).toFixed(2)}`
             item.value = `tab${c}`
             div.appendChild(item)
         }
